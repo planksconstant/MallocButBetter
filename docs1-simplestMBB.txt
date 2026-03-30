@@ -1,0 +1,16 @@
+Official Documentation 
+
+What dose this do 
+So just a custom memory allocator 
+
+How??
+
+so it uses sbrk() system calll and return apointer for the specified number of bytes
+
+we are using assert for bound checking 
+
+How to make it better
+
+instead of using sbrk() use mmap()
+have a structure that stores meta Data of the pointers/memory allocated
+work on user api 
