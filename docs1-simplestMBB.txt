@@ -5,7 +5,7 @@ So just a custom memory allocator
 
 How??
 
-so it uses sbrk() system calll and return apointer for the specified number of bytes
+so it uses sbrk() system calll and returns a pointer for the specified number of bytes
 
 we are using assert for bound checking 
 
